@@ -1,5 +1,7 @@
 # AI-Powered Resume Ranking System (RAG + Gemini)
 
+# Link: https://ai-resume-screener-beige-xi.vercel.app/
+
 A full-stack, intermediate-level portfolio web application for recruiters to parse, search, and rank resumes against detailed job descriptions using **Retrieval-Augmented Generation (RAG)**.
 
 ## High-Level Architecture

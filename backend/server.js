@@ -13,7 +13,10 @@ connectDB();
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: process.env.CLIENT_URL || 'http://localhost:5173', // Allow requests from the frontend URL
+  allowedHeaders: ['Content-Type', 'Authorization'], // Allowed headers
+}));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
